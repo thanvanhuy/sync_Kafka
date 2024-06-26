@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Config>
+  <SQL>
+    <Server>.\SQL2014</Server>
+    <DatabaseServer>nblc_tram</DatabaseServer>
+    <UserServer>oEQa</UserServer>
+    <PasswordServer>oxqvotma</PasswordServer>
+  </SQL>
+  <General>
+    <PathImg>http://10.10.19.142:74/Media/Vehicle_Image</PathImg>
+    <PathImgPlate>http://10.10.19.142:74/Media/Plate_Image</PathImgPlate>
+    <SendETC>2</SendETC>
+    <SendMTC>1</SendMTC>
+    <AutoRun>1</AutoRun>
+  </General>
+  <Kafka>
+    <Host1>http://localhost:9092</Host1>
+    <TopicEtc1>ETC1</TopicEtc1>
+    <TopicMtc1>MTC1</TopicMtc1>
+    <Host2>http://10.101.240.50:9092</Host2>
+    <TopicEtc2>ETC2</TopicEtc2>
+    <TopicMtc2>MTC2</TopicMtc2>
+    <RunSVR>1</RunSVR>
+  </Kafka>
+</Config>
